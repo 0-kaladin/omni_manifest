@@ -12,6 +12,9 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
+  <remote name="rascarlo"
+           fetch="git://github.com/rascarlo/" /> 
+
   <remote name="kaladin"
           fetch="git://github.com/0-kaladin/" />
 
@@ -408,5 +411,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/custom" name="android_vendor_custom" remote="omnirom" revision="android-4.3" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="jb-ras-mr2.0" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.3" />
 </manifest>
