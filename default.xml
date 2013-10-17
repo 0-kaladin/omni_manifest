@@ -19,7 +19,7 @@
            fetch="https://github.com/rascarlo/" /> 
 
   <remote name="kaladin"
-          fetch="git://github.com/0-kaladin/" />
+          fetch="http://github.com/0-kaladin/" />
 
   <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
