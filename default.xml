@@ -12,6 +12,9 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
+  <remote name="kaladin"
+          fetch="git://github.com/0-kaladin/" />
+
   <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
            sync-j="4" />
@@ -23,12 +26,12 @@
   <project path="android" name="android" remote="omnirom" revision="android-4.3" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.3" />
+  <project path="bionic" name="android_bionic" remote="kaladin" revision="linaro-test" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.3" />
+  <project path="dalvik" name="dalvik" remote="kaladin" revision="linaro-test" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
