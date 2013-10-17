@@ -16,7 +16,7 @@
            fetch="https://github.com/omnirom" />
 
   <remote name="rascarlo"
-           fetch="git://github.com/rascarlo/" /> 
+           fetch="https://github.com/rascarlo/" /> 
 
   <remote name="kaladin"
           fetch="git://github.com/0-kaladin/" />
