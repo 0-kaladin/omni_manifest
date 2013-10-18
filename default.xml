@@ -32,12 +32,12 @@
   <project path="android" name="omni_manifest" remote="kaladin" revision="omni43" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="kaladin" revision="linaro-test" />
+  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="dalvik" remote="kaladin" revision="linaro-test" />
+  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.3" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
