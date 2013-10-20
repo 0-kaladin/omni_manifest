@@ -19,6 +19,10 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote name="vanir"
+           fetch="https://github.com/VanirAOSP/"
+           review="vaniraosp.goo.im" />
+
   <remote name="rascarlo"
            fetch="https://github.com/rascarlo/" /> 
 
@@ -36,12 +40,12 @@
   <project path="android" name="omni_manifest" remote="kaladin" revision="omni43" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.3" />
+  <project path="bionic" name="android_bionic" remote="kaladin" revision="linaro-test" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.3" />
+  <project path="dalvik" name="dalvik" remote="kaladin" revision="linaro-test" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -292,7 +296,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="android_libcore" remote="omnirom" revision="android-4.3" />
+  <project path="libcore" name="platform_libcore" remote="vanir" revision="jb43" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-4.3" />
@@ -404,7 +408,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-4.3" />
+  <project path="system/core" name="system_core" remote="kaladin" revision="linaro2" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-4.3" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
